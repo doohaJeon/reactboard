@@ -1,0 +1,10 @@
+.pagination {
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+}
+
+.pagination-btn {
+    float: left;
+    margin-left: 5px;
+}

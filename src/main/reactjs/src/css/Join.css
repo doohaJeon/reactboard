@@ -1,0 +1,31 @@
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #modifyForm {
+    width: 250px;
+    text-align: center;
+  }
+
+  #modifyForm .label-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #modifyForm input {
+    width: 100%;
+  }
+
+  #modifyForm div {
+    display: flex;
+    align-items: center;
+  }
+
+  #btnIdCheck {
+    width: 50px;
+  }
