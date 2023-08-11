@@ -36,7 +36,7 @@ const Join = () => {
 
         const idCheckAxios = async () => {
             try {
-                const response = await axios.post('http://localhost:9090/user/id-check', {userId: userId});
+                const response = await axios.post('/user/id-check', {userId: userId});
 
                 console.log(response);
 
@@ -132,7 +132,7 @@ const Join = () => {
             };
 
             try {
-                const response = await axios.post('http://localhost:9090/user/join', user);
+                const response = await axios.post('/user/join', user);
 
                 console.log(response);
 

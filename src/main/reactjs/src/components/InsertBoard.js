@@ -130,7 +130,7 @@ const InsertBoard = () => {
 
         const insertBoardAxios = async () => {
             try {
-                const response = await axios.post('http://localhost:9090/board/board', formDataObj, {
+                const response = await axios.post('/board/board', formDataObj, {
                     headers: {
                         Authorization: `Bearer ${sessionStorage.getItem("ACCESS_TOKEN")}`,
                         "Content-Type": "multipart/form-data"

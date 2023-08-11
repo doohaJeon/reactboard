@@ -22,7 +22,7 @@ const Login = ({setIsLogin}) => {
 
         const loginAxios = async () => {
             try{
-                const response = await axios.post('http://localhost:9090/user/login', {userId: userId, userPw: userPw});
+                const response = await axios.post('/user/login', {userId: userId, userPw: userPw});
 
                 console.log(response);
 
